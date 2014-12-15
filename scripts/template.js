@@ -1,16 +1,13 @@
 // JavaScript Document
 $( document ).ready(function() {
 	// Handler for .ready() called.
-	$.Footer({
-		element : '#rodape',
-		setWidth : false
-	});	
 	
-	$('.collapse').collapse();
+	// Closes the Responsive Menu on Menu Item Click
+	$('.navbar-collapse ul li a').click(function() {
+		$('.navbar-toggle:visible').click();
+	});
 	
-	 $('.jcarousel').jcarousel({
-        // Configuration goes here
-    });
+	
 		
 
 });
