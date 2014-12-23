@@ -8,7 +8,11 @@ body
 
 /* ---------------------- CONFIGUARAÇÕES DA BARRA DE NAVEGAÇÃO----------------------------------- */
 
-.navbar-inverse { background-color: #000000;}
+.navbar-inverse { 
+background-color: #000000;
+font-family: 'Oswald', sans-serif;
+text-align:center;
+}
 .navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #1F1F1F}
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #080808}
 .dropdown-menu { background-color: #0D0D0D}
@@ -36,71 +40,127 @@ body
 /* ----------------------------- FIM ------------------------CONFIGUARAÇÕES DA BARRA DE NAVEGAÇÃO */
 
 
-#sobre{
-    padding-top: 80px;
-    font-family: 'Oswald', sans-serif;
-    height: 760px;
 
+
+
+#sobre
+{
+	padding-top:90px;
+	height:720px;
+	font-family: 'Oswald', sans-serif;
+	
+}
+h5
+{
+	padding-top:20px;
+	font-family: 'Noto Sans', sans-serif;
+	color:#999999;
+	font-size:15px;
+	line-height:200%;
+}
+hr{
+	border:#666;	
+	
+	}
+
+
+#fundo1{background-color:#000;}
+#fundo2{background-color:#000;}
+
+#portfolio
+{
+	padding-top:90px;
+	height:auto;	
+	font-family: 'Oswald', sans-serif;
+	/*margin-bottom:100px;*/
+	padding-bottom:100px;
+	background-color:#000;
+	
+	
+	
+	
+}
+#contato
+{
+	padding-top:90px;
+	height:720px;	
+	font-family: 'Oswald', sans-serif;
 }
 
-#portfolio{
-    padding-top: 80px;
-    font-family: 'Oswald', sans-serif;
-    height: 760px;
-    background-color: #000;
-
-
+#rodape
+{
+	text-align:center;	
+	padding-top:15px;
+	height:60px;
+	background-color:#000;	
+	font-family: 'Oswald', sans-serif;
 }
-#rodape{
-    height: 60px;
-    padding-top: 15px;
-    text-align: center;
-    background-color: #000;
-    color: #FFF;
 
-}
+
+
 
 
 #parallaxBar{
-    height:500px;
-    background-color:#004c82;
-    /*background: url(../img/books-colored-crayons-coloured-pencils-232.jpg) 5% 0 fixed;*/
-    background: url(../img/books-colored-crayons-coloured-pencils-232.jpg);
-    background-size: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    position: relative;
-
-    
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-
-
-
+    height:750px;
+    /*background-color:#004c82;*/
+    background:#000 50% 0 fixed;
+	
+    position: relative;     
 }
 
 #parallaxBar2{
-    height:700px;
+    height:250px;
     background-color:#004c82;
-    /*background: url(../img/books-colored-crayons-coloured-pencils-232.jpg) 5% 0 fixed;*/
-    background: url(../img/teste.png);
-    background-size: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    /*position: relative;*/ 
-
-
-    background-position: center center;
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 700px;   
+   /* background:	url(../../repete.png) 50% repeat scroll, url(../../books-colored-crayons-coloured-pencils-232.jpg) 50% 0 fixed;*/
+	background:url(../../teste.png) 50% 0 fixed;
+    position: relative;   
+	
+	  
 }
 
+#parallaxBar3{
+    height:250px;
+    background-color:#004c82;
+    background:url(../../books-colored-crayons-coloured-pencils-232.png) 100% 0 fixed;
+    position: relative;
+		
+	 
+	
+	
+}
+
+#marca
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:500px;
+	height:300px;
+	margin-left:-250px;
+	margin-top:-230px;
+	text-align:center;
+	/*background-color:#099;*/
+	font-family: 'Shadows Into Light', cursive;
+	letter-spacing:-5px;
+	font-size:80px;
+	color:#FFF;	
+	
+}
+#marca{
+	color:#FFF;
+	
+	-webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;	
+	}
+	
+#marca:hover{
+	color:#693;
+	
+	-webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;	
+	}
 
 
 
@@ -121,8 +181,125 @@ body
 
 
 
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;	
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+   	background: rgba(36,47,49,.9);	
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+    margin: 0;
+}
+
+#portfolio * {
+    z-index: 2;
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
