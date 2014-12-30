@@ -2,6 +2,7 @@ body
 {
       /*  padding-top: 51px;*/
 		padding-top: 51px;
+		background-color:#000;
 		
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
@@ -103,9 +104,12 @@ hr{
 #parallaxBar{
     height:750px;
     /*background-color:#004c82;*/
-    background:#000 50% 0 fixed;
+    /*background:#000 50% 0 fixed;*/
+	background:url(../../tela1.jpg)	center fixed;
+	background-size:cover;
 	
-    position: relative;     
+	
+   /* position: relative;     */
 }
 
 #parallaxBar2{
@@ -113,7 +117,8 @@ hr{
     background-color:#004c82;
    /* background:	url(../../repete.png) 50% repeat scroll, url(../../books-colored-crayons-coloured-pencils-232.jpg) 50% 0 fixed;*/
 	background:url(../../teste.png) 50% 0 fixed;
-    position: relative;   
+   /* position: relative;   */
+   background-size:contain;
 	
 	  
 }
@@ -146,21 +151,6 @@ hr{
 	color:#FFF;	
 	
 }
-#marca{
-	color:#FFF;
-	
-	-webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;	
-	}
-	
-#marca:hover{
-	color:#693;
-	
-	-webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;	
-	}
 
 
 
