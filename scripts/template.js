@@ -19,8 +19,8 @@ $( document ).ready(function() {
                 $scroll.css({ backgroundPosition: coords });    
             });
    });  
-	
-	
 
+
+	
 
 });

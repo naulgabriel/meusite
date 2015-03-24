@@ -42,6 +42,19 @@ text-align:center;
 /* ----------------------------- FIM ------------------------CONFIGUARAÇÕES DA BARRA DE NAVEGAÇÃO */
 
 
+::selection{
+	background-color:#000;
+	color:#F90;
+}
+ 
+::-moz-selection {
+	background-color:#000;
+	color:#F90;
+}
+
+
+
+
 img {
     max-width: 100%;
 }
@@ -70,7 +83,7 @@ hr{
 
 
 #fundo1{background-color:#000;}
-#fundo2{background-color:#000;}
+#fundo2{background-color:#fff;}
 
 #portfolio
 {
@@ -97,7 +110,7 @@ hr{
 	text-align:center;	
 	padding-top:15px;
 	height:60px;
-	background-color:#000;	
+	background-color:#fff;	
 	font-family: 'Oswald', sans-serif;
 }
 
@@ -109,9 +122,10 @@ hr{
     /*height:750px;*/
     /*background-color:#004c82;*/
     /*background:#000 50% 0 fixed;*/
-	background:url(../../tela1.png)	center no-repeat fixed;
+	/*background:url(../../tela1.png)	center no-repeat fixed;*/
+	background:url(../../logo.png)	center no-repeat fixed;
 	background-size:50% cover;
-	height:700px;
+	height:600px;
 	background-position:top;
 	
 	
@@ -123,9 +137,10 @@ hr{
     height:250px;
     background-color:#004c82;
    /* background:	url(../../repete.png) 50% repeat scroll, url(../../books-colored-crayons-coloured-pencils-232.jpg) 50% 0 fixed;*/
-	background:url(../../teste.png) center no-repeat fixed;
+	background:url(../../fundo1.png) center no-repeat fixed;
    /* position: relative;  */ 
    background-size:100% cover;
+   
 	
 	  
 }
@@ -133,7 +148,7 @@ hr{
 #parallaxBar3{
     height:250px;
     background-color:#004c82;
-    background:url(../../books-colored-crayons-coloured-pencils-232.png) center no-repeat fixed;
+    background:url(../../fundo2.png) center no-repeat fixed;
 	 background-size:30% cover;
     /*position: relative;*/
 		
@@ -309,7 +324,7 @@ hr{
 
 #parallaxBar{
     
-	background:url(../../architect-calculating-design-2097.jpg)	center no-repeat;
+	background:url(../../logo.png)	center repeat fixed;
 	background-size:50% cover;
 	height:700px;
 	background-position:top;
@@ -321,7 +336,7 @@ hr{
     height:250px;
     background-color:#004c82;
    /* background:	url(../../repete.png) 50% repeat scroll, url(../../books-colored-crayons-coloured-pencils-232.jpg) 50% 0 fixed;*/
-	background:url(../../asia-bicycle-bike-2700.jpg) center no-repeat fixed;
+	background:url(../../fundo1.png) center no-repeat fixed;
    /* position: relative;  */ 
    background-size:100% cover;
 	
@@ -331,7 +346,7 @@ hr{
 #parallaxBar3{
     height:250px;
     background-color:#004c82;
-    background:url(../../books-colored-crayons-coloured-pencils-232.jpg) center no-repeat fixed;
+    background:url(../../fundo2.png) center no-repeat fixed;
 	 background-size:30% cover;
     /*position: relative;*/
 		
