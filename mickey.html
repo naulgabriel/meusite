@@ -12,6 +12,9 @@
 <!-- Custom CSS -->
 <link href=css/template.css rel=stylesheet>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="css/blueimp-gallery.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -57,81 +60,99 @@
 </nav>
 
  
-
+ 
+<section class="container-fluid text-center galeria-padrao">
+<h1>Mickey</h1>
+<h2>Fotos: Fotografo | Local: São Paulo</h2>
+ <hr>
+</section>
  
 <section class="container-fluid">
 
-<section class="container text-center">
-<div class="row">
-<br>
-<div class="col-md-4">
-<div class="profile-card bw">
-<h2 class="hvr-underline-from-center">Casamento</h2>
- <a href="casamento.html"><img src="img/galeria/casamento/1.jpg" class="img-responsive image-alinha" alt='casamento'></a>
-
+ 
+<div> 
+<div id=blueimp-gallery class=blueimp-gallery data-use-bootstrap-modal=false>
+<div class=slides></div>
+<h3 class=title></h3>
+<a class=prev>‹</a>
+<a class=next>›</a>
+<a class=close>×</a>
+<a class=play-pause></a>
+<ol class=indicator></ol>
+<div class="modal fade">
+<div class=modal-dialog>
+<div class=modal-content>
+<div class=modal-header>
+<button type=button class=close aria-hidden=true>&times;</button>
+<h4 class=modal-title></h4>
+</div>
+<div class="modal-body next"></div>
+<div class=modal-footer>
+<button type=button class="btn btn-default pull-left prev">
+<i class="glyphicon glyphicon-chevron-left"></i>
+Previous
+</button>
+<button type=button class="btn btn-primary next">
+Next
+<i class="glyphicon glyphicon-chevron-right"></i>
+</button>
 </div>
 </div>
-<div class="col-md-4">
-<div class="profile-card bw">
-<h2 class="hvr-underline-from-center">Dinossauro</h2>
- <a href="dino.html"><img src="img/galeria/dinossauro/5.jpg" class="img-responsive image-alinha" alt='aniversarios'></a>
-
 </div>
 </div>
-<div class="col-md-4">
-<div class="profile-card bw">
-<h2 class="hvr-underline-from-center">Luna</h2>
- <a href="luna.html"><img src="img/galeria/luna/1.jpg" class="img-responsive image-alinha" alt='eventos'></a>
-
-</div>
-</div>
-</div>
- <div class="row">
-<br>
-<div class="col-md-4">
-<div class="profile-card bw">
-<h2 class="hvr-underline-from-center">Mickey</h2>
- <a href="mickey.html"><img src="img/galeria/mickey/1.jpeg" class="img-responsive image-alinha" alt='casamento'></a>
-
-</div>
-</div>
-<div class="col-md-4">
-<div class="profile-card bw">
-<h2 class="hvr-underline-from-center">Noivado</h2>
- <a href="noivado.html"><img src="img/galeria/noivado/2.JPG" class="img-responsive image-alinha" alt='aniversarios'></a>
-
-</div>
-</div>
-<div class="col-md-4">
-<div class="profile-card bw">
-<h2 class="hvr-underline-from-center">Noivado2</h2>
- <a href="noivado2.html"><img src="img/galeria/noivado2/1.jpeg" class="img-responsive image-alinha" alt='eventos'></a>
-
-</div>
-</div>
+</div> 
 </div>
  
- <div class="row">
-<br>
-<div class="col-md-4">
-<div class="profile-card bw">
-<h2 class="hvr-underline-from-center">Pocoyo</h2>
- <a href="pocoyo.html"><img src="img/galeria/pocoyo/1.jpg" class="img-responsive image-alinha" alt='casamento'></a>
-
-</div>
-</div>
-<div class="col-md-4">
-<div class="profile-card bw">
-<h2 class="hvr-underline-from-center">Safari</h2>
- <a href="safari.html"><img src="img/galeria/safari/3.jpg" class="img-responsive image-alinha" alt='aniversarios'></a>
-
-</div>
-</div>
-
-</div>
-</section>
  
+<div class="container-fluid"> 
+ <a href="galeria.html" class="btn btn-default btn-sm" role="button">Voltar para a galeria</a>
+
+<div class="casamento">
+<br>
+<div class=row>
+    
+<div class="col-md-4 portfolio-item">  
+<a href="img/galeria/mickey/1.jpeg" title data-gallery><img class=img-responsive src="img/galeria/mickey/1.jpeg" alt></a>
+<br>
+</div>
+
+<div class="col-md-4 portfolio-item">  
+<a href="img/galeria/mickey/2.jpeg" title data-gallery><img class=img-responsive src="img/galeria/mickey/2.jpeg" alt></a>
+<br>
+</div>
+    
+<div class="col-md-4 portfolio-item">  
+<a href="img/galeria/mickey/5.jpeg" title data-gallery><img class=img-responsive src="img/galeria/mickey/5.jpeg" alt></a>
+<br>
+</div>
+    
+    
+</div>
+    
+<div class=row>
+    
+
+
+<div class="col-md-4 portfolio-item">  
+<a href="img/galeria/mickey/4.jpeg" title data-gallery><img class=img-responsive src="img/galeria/mickey/4.jpeg" alt></a>
+<br>
+</div>
+    
+    
+<div class="col-md-4 portfolio-item">  
+<a href="img/galeria/mickey/3.jpeg" title data-gallery><img class=img-responsive src="img/galeria/mickey/3.jpeg" alt></a>
+<br>
+</div>
+
+</div>
+    
   
+    
+</div>
+   
+
+</div>
+</div>   
 </section>
 
 <footer class="container-fluid text-center">

@@ -2,7 +2,8 @@ body{font-family:'Open Sans', sans-serif;padding-top: 80px;}
 
 .parallax>h2{font-family:'Clicker Script', cursive; font-size: 40px;}
 .carousel h2{font-family:'Clicker Script', cursive; font-size: 40px;}
-.carousel h4{font-family:'Clicker Script', cursive; font-size: 25px;}
+.carousel h4,.carousel>span{font-family:'Clicker Script', cursive; font-size: 25px;}
+.sobre>h1{font-family:'Clicker Script',cursive;}
 
 .navbar{background-color: #fff;border:none;}
 .navbar-brand{padding-top:15px;}
@@ -48,8 +49,10 @@ footer{padding-top: 60px;padding-bottom: 60px;background-color:#e8e8e8;color: #a
 footer>h4{color: rgba(222, 0, 102, 0.62);}
 
 .profile-info {color: #DE0066;padding: 25px;position: relative;margin-top: 0px;}
-.hvr-underline-from-center,.parallax>h2{color:#DE0066}
-
+.hvr-underline-from-center,.parallax>h2,.sobre>h1{color:#DE0066}
+.sobre>p{color:#a8a8a8;}
+.sobre,.img-sobre{padding-bottom: 20px; }
+.sobre>h1{font-size: 60px; }
 				
 .bw {
 -webkit-filter: brightness(100%);
@@ -66,54 +69,9 @@ transition: all 0.5s ease;
 
 }
 
-
-
-.portfolio-box {
-  position: relative;
-  display: block;
-  max-width: 650px;
-  margin: 0 auto;
-}
-.portfolio-box .portfolio-box-caption {
-  color: white;
-  opacity: 0;
-  display: block;
-  background: rgba(240, 95, 64, 0.9);
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  padding: 0 15px;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 14px;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
-}
-.portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
-}
-.portfolio-box:focus {
-  outline: none;
-}
+.galeria-padrao>h1{color:#DE0066;font-family:'Clicker Script',cursive;font-size: 55px;}
+.galeria-padrao>h2{color:#a8a8a8;font-size: 15px;}
+#submit{margin-bottom:30px;}
 
 
 
@@ -128,6 +86,7 @@ transition: all 0.5s ease;
  .navbar *{border:#fff}
 
 body{padding-top: 30px;}
+ .sobre,.galeria-padrao{padding-top: 40px; }
  
 
 

@@ -10,10 +10,11 @@
 <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom CSS -->
-
 <link href=css/template.css rel=stylesheet>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+<link rel="stylesheet" href="css/blueimp-gallery.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -57,32 +58,96 @@
 </div>
 <!-- /.container -->
 </nav>
- 
- <section class="container">
-<section class="col-md-12 text-center sobre">
 
- <h1><strong>O Atelier Doce Ciranda</strong></h1>
+ 
+ 
+<section class="container-fluid text-center galeria-padrao">
+<h1>Luna</h1>
+<h2>Fotos: Fotografo | Local: São Paulo</h2>
  <hr>
-<p>A empresa <strong>Atelier Doce Ciranda</strong> “nasceu” da dedicação de três amigas em criar e montar, com muita criatividade as decorações das festas da família.</p>
-<p>O dia do evento, é o “<strong>grande dia</strong>”, é o dia “<strong>mágico</strong>”, onde nada pode dar errado.</p>
- <p>
-Mas o que não se sabe e não se vê, é o processo por trás desde momento, que começa no fechamento do contrato.</p>
-<p>Este é um processo minucioso, para que tudo saia como o planejado e de acordo com o gosto do cliente. Por isso, temos o cuidado na contratação dos prestadores, na aquisição de peças e/ou fabricação, para que todos os objetos, além dos doces e bolo se interliguem completando assim um cenário mágico e perfeito.</p>
-<p>Foi assim que surgiu nossa empresa, do amor, do dom e da vontade em alegrar as pessoas e realizar o desejo delas.</p>
-<p>Cuidamos de cada detalhe com <strong>muito carinho e dedicação</strong>, pois cada evento é <strong>único</strong> e <strong>especial</strong>, inclusive para nós.</p>
+</section>
  
+<section class="container-fluid">
+
+ 
+<div> 
+<div id=blueimp-gallery class=blueimp-gallery data-use-bootstrap-modal=false>
+<div class=slides></div>
+<h3 class=title></h3>
+<a class=prev>‹</a>
+<a class=next>›</a>
+<a class=close>×</a>
+<a class=play-pause></a>
+<ol class=indicator></ol>
+<div class="modal fade">
+<div class=modal-dialog>
+<div class=modal-content>
+<div class=modal-header>
+<button type=button class=close aria-hidden=true>&times;</button>
+<h4 class=modal-title></h4>
+</div>
+<div class="modal-body next"></div>
+<div class=modal-footer>
+<button type=button class="btn btn-default pull-left prev">
+<i class="glyphicon glyphicon-chevron-left"></i>
+Previous
+</button>
+<button type=button class="btn btn-primary next">
+Next
+<i class="glyphicon glyphicon-chevron-right"></i>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+ 
+ 
+<div class="container-fluid"> 
+ <a href="galeria.html" class="btn btn-default btn-sm" role="button">Voltar para a galeria</a>
+
+<div class="casamento">
+<br>
+<div class=row>
+    
+<div class="col-md-4 portfolio-item">  
+<a href="img/galeria/luna/1.jpg" title data-gallery><img class=img-responsive src="img/galeria/luna/1.jpg" alt></a>
+<br>
+</div>
+
+<div class="col-md-4 portfolio-item">  
+<a href="img/galeria/luna/2.JPG" title data-gallery><img class=img-responsive src="img/galeria/luna/2.JPG" alt></a>
+<br>
+</div>
+    
+<div class="col-md-4 portfolio-item">  
+<a href="img/galeria/luna/3.jpg" title data-gallery><img class=img-responsive src="img/galeria/luna/3.jpg" alt></a>
+<br>
+</div>
+    
+    
+</div>
+    
+
+    
+   
+    
+</div>
+   
+
+</div>
+</div>   
 </section>
-<section class="col-md-12 img-sobre"><img src="img/elas2.jpg" class="img-responsive image-alinha"></section>
 
-</section>
-
-
-<footer class="col-md-12 text-center">
+<footer class="container-fluid text-center">
 <img class="img-responsive image-alinha" src=img/rsz_logo-03.png>
 <h4>Criar &amp; Realizar com amor e carinho, é nosso principal objetivo para sua festa dos sonhos.</h4>
 <h5>Copyright © Atelier Doce Ciranda 2016. Todos os Direitos Reservados.</h5>
 </footer>
+
 <script src="js/jquery.js"></script>
 <script async src="js/bootstrap.min.js"></script>
-</body>
+<script src=http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js></script>
+ </body>
 </html>
