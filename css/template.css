@@ -88,6 +88,8 @@ transition: all 0.5s ease;
 body{padding-top: 30px;}
  .sobre,.galeria-padrao{padding-top: 40px; }
  
+ .navbar-brand{height: 60%;width: 60%;}
+ 
 
 
 
@@ -98,7 +100,7 @@ body{padding-top: 30px;}
  .intro{display: block;margin-top: auto;margin-bottom: auto;}
  .navbar-brand{padding-top:15px;}
  body{padding-top: 80px;} 
-
+ .navbar-brand{height: 100%;width: 100%;}
 }
 
 @media (min-width:970px) {
@@ -107,7 +109,7 @@ body{padding-top: 30px;}
  .intro{display: block;margin-top: -150px;margin-bottom: auto;}
  .navbar-brand{padding-top:15px;}
  body{padding-top: 80px;} 
-
+.navbar-brand{height: 100%;width: 100%;}
 }
 
 
