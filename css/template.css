@@ -86,7 +86,7 @@ transition: all 0.5s ease;
  .navbar *{border:#fff}
 
 body{padding-top: 30px;}
- .sobre,.galeria-padrao{padding-top: 40px; }
+ .sobre,.galeria-padrao{padding-top:40px;}
  
  .navbar-brand{height: 60%;width: 60%;}
  
