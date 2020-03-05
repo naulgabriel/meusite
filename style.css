@@ -1,0 +1,52 @@
+nav {
+    background-color:#121423;
+    color:rgb(255, 255, 255);
+}
+th{
+
+color:#3166A1;
+
+
+}
+
+thead{
+
+    background-color:#121423;
+
+}
+
+
+body{
+    background-color: #26284A;
+    color: white;
+    
+}
+
+
+td{
+
+    line-height: 15px;
+    
+    
+}
+
+
+footer {
+    height: 100px;
+    background-color:#121423;
+    padding-top:  17px;
+    
+ }
+
+ #tcentral{
+    font-size: 17px;
+    padding: 27px;
+    
+    }
+#rodapeT{
+font-size: 11px;
+padding: 12px;
+
+
+}
+
